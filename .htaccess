@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+#turning on engine
+	RewriteEngine On              
+#redirection for file extention          					
+	RewriteCond %{REQUEST_FILENAME} !-f    						
+#redirection for file extention
+	RewriteCond %{REQUEST_FILENAME} !-d    						
+#redirect all request towards index.php
+	RewriteRule ^(index\.php)|([/A-Za-z0-9-]+)$   index.php     
+</IfModule>
