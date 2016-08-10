@@ -1,0 +1,2 @@
+# yalamo-framework
+Yalamo is a light, fast and easy to learn php framework that doesn't put any restriction on your application. in fact you can either use the built in mvc pattern or just include the framework to make use of the functionalities. Further you can extend as you need to suit your requirements. Yalamo is built with complex and simple applications development process in mind. just check out the video tutorial :  http://blip.tv/file/4330269/
